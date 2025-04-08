@@ -3,5 +3,4 @@ from app import start
 
 def test_start():
     """Testing start function"""
-    assert start() == True
-    
+    assert start() is True
